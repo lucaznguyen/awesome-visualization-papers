@@ -2,7 +2,7 @@
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/lucaznguyen/awesome-visualization-papers/)
 
-A collection of chosen research papers, books, blog posts, and other readings on data visualizations that I have accumulated throughout my research journey.
+A collection of chosen research papers, books, blog posts, and other readings on data visualizations that I have accumulated throughout my research journey. Follow the *Table of Contents* to jump straight to the area you need; click a title to open the original source.
 
 
 ## Table of contents
@@ -11,17 +11,17 @@ A collection of chosen research papers, books, blog posts, and other readings on
 - [Animation](#animation)
 - [Automated Visualization Design](#automated-visualization-design)
 - [Big Data](#big-data)
-- [Color](#color)
-- [Data Management](#data-management)
-- [Graphs](#graphs)
+- [Color & Palettes](#color)
+- [Data Handling](#data-management)
+- [Network & Graph](#graphs)
 - [Human Computer Interaction](#human-computer-interaction)
-- [Narrative and Story](#narrative-and-story)
+- [Narrative & Storytelling](#narrative-and-story)
 - [Perception](#perception)
-- [Research Methods](#research-methods)
+- [Research Methodologies](#research-methods)
 - [Scientific Visualization](#scientific-visualization)
 - [Statistics and Uncertainty](#statistics-and-uncertainty)
-- [Systems, Toolkits, and Libraries](#systems-toolkits-and-libraries)
-- [Visual Forms](#visual-forms)
+- [Framworks & Libraries](#systems-toolkits-and-libraries)
+- [Visual Representations](#visual-forms)
 
 
 ## Animation
@@ -43,7 +43,7 @@ A collection of chosen research papers, books, blog posts, and other readings on
 - [Nanocubes: Fast visualization of large spatiotemporal datasets](http://nanocubes.net/) - specialized database system for visualizing spatiotemporal datasets
 - [Bin-summarise-smooth: A framework for visualising large data](https://vita.had.co.nz/papers/bigvis.pdf) - general visualization methods for large datasets
 
-## Color
+## Color & Palettes
 
 - [Affective Colour Palettes in Visualization](https://research.tableau.com/paper/affective-colour-palettes-visualization-poster) - how can different color palette convey different emotions?
 - [Algorithmic improvements for the CIECAM02 and CAM16 color appearance models](https://www.researchgate.net/publication/323257267_Algorithmic_improvements_for_the_CIECAM02_and_CAM16_color_appearance_models/fulltext/5a8a41120f7e9b1a95543172/323257267_Algorithmic_improvements_for_the_CIECAM02_and_CAM16_color_appearance_models.pdf?origin=publication_detail) - An overview of the CIECAM16 and CIECAM02 color appearance models, thought to be successors to the popular CIELAB model.
@@ -54,13 +54,13 @@ A collection of chosen research papers, books, blog posts, and other readings on
 - [Somewhere Over the Rainbow: An Empirical Assessment of Quantitative Colormaps](https://idl.cs.washington.edu/papers/quantitative-color/) - Comparative analysis of different color maps and rainbow scales.
 - [When Guidelines Clash: Determining Which Color Means More](https://medium.com/multiple-views-visualization-research-explained/ieee-vis-2018-color-interaction-augmented-reality-ae999b227c7) - If a design goal is to produce colormaps that match people’s inferred mappings and are robust to changes in background color, it is beneficial to use colormaps that will not appear to vary in opacity on any background color, and to encode larger quantities in darker colors.
 
-## Data Management
+## Data Handling
 
 - [The Case for Data Visualization Management Systems](http://db.csail.mit.edu/pubs/p903-wu.pdf) - a vision paper arguing why we should build wholistic systems thinking of visualization and user interaction from the very start
 - [Data Cube: A Relational Aggregation Operator Generalizing Group-By, Cross-Tab, and Sub-Totals](http://cs.stanford.edu/people/chrismre/cs345/rl/olap.pdf) - paper introducing the classic data cube
 - [Tidy Data](http://vita.had.co.nz/papers/tidy-data.pdf) - Hadley Wickham's paper on data cleaning and formatting
 
-## Graphs
+## Network & Graph
 
 - [Towards Unambiguous Edge Bundling: Investigating Confluent Drawings for Network Visualization](http://ialab.it.monash.edu/~dwyer/papers/confluentbundling.pdf) - User study of edge bundling and compression techniques.
 - [Scalable Graph Exploration and Visualization: Sensemaking Challenges and Opportunities](https://www.cc.gatech.edu/~dchau/papers/15-bigcomp-sensemaking.pdf) - survey paper focusing on large graph exploration and sensemaking, summarizes algorithms, visualizations, and interaction techniques
@@ -74,7 +74,7 @@ A collection of chosen research papers, books, blog posts, and other readings on
 - [Exploration Strategies for Discovery of Interactivity in Visualizations](https://prism.ucalgary.ca/bitstream/handle/1880/106607/2018-1104-03.pdf?sequence=1) - model for understanding how users first experience an interactive
 - [Past, Present and Future of User Interface Software Tools](http://www.cs.cmu.edu/~amulet/papers/futureofhci.pdf) - an overview of successes and failures in user interface tools, ideas for thinking about them, and thoughts on the future
 
-## Narrative and Story
+## Narrative & Storytelling
 
 - [An argument structure for data stories](https://kosara.net/papers/2017/Kosara-EuroVis-2017.pdf) - Kosara's attempt to breakdown alternative narrative structures from the inverted pyramid suitable for data stories.
 - [Finding a Clear Path: Structuring Strategiesm for Visualization Sequences](https://kosara.net/papers/2017/Hullman-EuroVis-2017.pdf) - Study of strategies for ordering visualizations in a narrative
@@ -96,7 +96,7 @@ A collection of chosen research papers, books, blog posts, and other readings on
 - [What Makes a Visualization Memorable?](http://cvcl.mit.edu/papers/Borkin_etal_MemorableVisualization_TVCG2013.pdf) - Borkin study of more than 2,000 visualization types that investigates the features of visualizations that aid in memorability.
 
 
-## Research Methods
+## Research Methodologies
 
 - [Crowdsourcing Graphical Perception: Using Mechanical Turk to Assess Visualization Design](http://vis.stanford.edu/files/2010-MTurk-CHI.pdf) - Heer and Bostock paper using crowdsourced participants that validates its utility as a research tool.
 - [Process and Pitfalls in Writing Information Visualization Research Papers](http://www.cs.ubc.ca/labs/imager/tr/2008/pitfalls/pitfalls.pdf) - an overview of different types of information visualization papers, and common problems that researchers face
@@ -119,7 +119,7 @@ A collection of chosen research papers, books, blog posts, and other readings on
 - [When (ish) is My Bus? User-centered Visualizations of
 Uncertainty in Everyday, Mobile Predictive Systems](https://faculty.washington.edu/jhullman/busUncertaintyVis.pdf) - Evaluation of strategies for real-time visualizations that communicate uncertainty
 
-## Systems, Toolkits, and Libraries
+## Framworks & Libraries
 
 - [A Layered Grammar of Graphics](http://byrneslab.net/classes/biol607/readings/wickham_layered-grammar.pdf) - description of ggplot2 by Hadley Wickham.
 - [D3: Data Driven Documents](http://vis.stanford.edu/files/2011-D3-InfoVis.pdf)
@@ -130,7 +130,8 @@ Uncertainty in Everyday, Mobile Predictive Systems](https://faculty.washington.e
 - [Vega-Lite](https://vega.github.io/vega-lite/) - a high level visualization grammar for interaction, built on top of vega
 - [Visualization Analysis and Design](https://www.crcpress.com/Visualization-Analysis-and-Design/Munzner/p/book/9781466508910) -  Munzner's systems framework for thinking about visualization in terms of principles and design choices.
 
-## Visual Forms
+## Visual Representations
+
 - [Arcs, Angles, or Areas: Individual Data Encodings in Pie and Donut Charts](https://research.tableau.com/sites/default/files/Skau-EuroVis-2016.pdf) - Robert Kosara's study on reading accuracy with pie charts.
 - [Data Through Others’ Eyes: The Impact of Visualizing Others’
 Expectations on Visualization Interpretation](https://faculty.washington.edu/jhullman/VIS17_Expectations_SocialVis.pdf) - Evaluation of visualizations that reveal other user's expectations around a dataset, like NYT's You Draw It results graphs.
@@ -147,6 +148,10 @@ Expectations on Visualization Interpretation](https://faculty.washington.edu/jhu
 - [Timelines Revisited: A Design Space and Considerations for Expressive Storytelling](https://pdfs.semanticscholar.org/0812/fd5208001851e75d6c2f0881e2f5d037f285.pdf) - A metastudy of over 200 timeline designs.
 - [Tree-Maps: a space-filling approach to the visualization of hierarchical information structures](https://dl.acm.org/citation.cfm?id=949654) - Shneiderman's treemap paper, where he describes the form initially
 - [Using Typography to Expand the Design Space of Data Visualization](https://www.sciencedirect.com/science/article/pii/S2405872616300107) - Exploration of ways to use type to construct visualization forms
+
+## Contributing
+
+Pull requests are welcome, feel free to suggest new papers or improved descriptions.
 
 Thank you for your time!
 
